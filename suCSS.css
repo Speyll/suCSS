@@ -68,7 +68,6 @@
     --accent-text: var(--bg);
     --border: #646868;
     --link: #5690AF;
-    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 [data-theme="dark"] {
@@ -82,7 +81,6 @@
     --accent-text: var(--bg);
     --border: #DBD5BC;
     --link: #E2AEA2;
-    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 ::selection,
