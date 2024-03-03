@@ -526,7 +526,6 @@ img,
 video {
   max-width: 90%;
   height: auto;
-  margin: .125rem;
   padding: .125rem;
   border: dashed 2px var(--accent);
   border-radius: 15px;
