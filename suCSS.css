@@ -573,10 +573,9 @@ pre {
   border: 1px solid var(--accent);
   max-height: 30rem;
   padding: .625rem;
-  overflow-x: auto;
+  overflow: auto;
   font-style: monospace;
   white-space: pre-wrap; 
-  word-break: break-word;
 }
 
 p code,
