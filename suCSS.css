@@ -198,6 +198,11 @@ p {
   margin: 1rem 0;
 }
 
+p, li,
+figcaption {
+  text-wrap: pretty;
+}
+
 /* format links */
 a,
 a:visited {
@@ -280,7 +285,7 @@ aside {
   padding: 0 10px;
   margin-inline-start: 10px;
   float: right;
-}
+} ~
 *[dir="rtl"] aside {
   float: left;
 }
