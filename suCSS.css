@@ -218,7 +218,7 @@ a:hover {
 
 /* format lists */
 ul {
-  list-style: none;
+  list-style: square;
   margin-top: .25rem;
   margin-bottom: .25rem;
 }
@@ -235,13 +235,13 @@ li {
 
 ul li::marker {
   content: '» ';
-  color: var(--accent)
+  color: var(--accent);
 }
 
 ul li:hover::marker {
   content: '# ';
   font-weight: 700;
-  color: var(--link)
+  color: var(--link);
 }
 
 ol li::marker {
