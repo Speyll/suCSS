@@ -162,6 +162,23 @@
       ` a b c d e f g h i j k l m n o
       p q r s t u v w x y z { | } ~</pre>
 
+    <h3>Pre-formatted text code</h3>
+    <pre><code>message LaunchSession {
+  // Required; must match the id of an application returned in "12 - Application
+  // List".
+  string application_id = 1;
+
+  VirtualDisplayParameters display_params = 10; // Required.
+
+  // Any gamepads that should be available at the start of the session. This is
+  // sometimes important for applications that don't correctly support
+  // hotplugged devices.
+  //
+  // These gamepads should be considered permanently connected, and
+  // GamepadUnavailable events should be ignored for them.
+  repeated Gamepad permanent_gamepads = 20;
+}</code></pre>
+
     <h2>Text Sections</h2>
     <p>Text sections are like building blocks of a story. They add flavor and style to your web page.</p>
     <p><a href="#!">This is a text link</a>.</p>
