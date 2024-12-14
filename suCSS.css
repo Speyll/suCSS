@@ -580,7 +580,7 @@ pre {
   padding: .625rem;
   overflow: auto;
   font-style: monospace;
-  white-space: pre-wrap;
+  white-space: break-space;
 }
 
 p code,
